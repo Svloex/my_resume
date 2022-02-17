@@ -13,10 +13,10 @@ let App = (props) => {
       <Header/>
       <div>
         <Routes>
-            <Route path='/home' element={<Content/>} />
+            <Route path='https://svloex.github.io/Resume/home' element={<Content/>} />
             {/* <Route path='/Calculator' element={<Calculator/>} /> */}
-            <Route path='/wiki' element={<div>ddd</div>} />
-            <Route path='/calculator' element={<Calculator/>} />
+            <Route path='https://svloex.github.io/Resume/wiki' element={<div>ddd</div>} />
+            <Route path='https://svloex.github.io/Resume/calculator' element={<Calculator/>} />
         </Routes>
       </div>
     </div>
