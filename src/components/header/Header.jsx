@@ -9,7 +9,7 @@ let Header =  (props) => {
      pathname = [...pathname].join("")
     console.log(pathname)
     const [tabIndex] = useState(["home","calculator"]);
-    const [tabs] = useState(['https://svloex.github.io/Resume/home','https://svloex.github.io/Resume/calculator','empty','empty']);
+    const [tabs] = useState(['https://svloex.github.io/my_resume/home','https://svloex.github.io/my_resume/calculator','empty','empty']);
     useEffect(() => {
          console.log("render")
        
