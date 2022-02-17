@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #eee;
+    text-decoration: none;
+    color: #7B8585;
+    transition: 0.3s;
+    font: bold 14px Arial;
+}
+
+li:hover {
+    background-color: #beecea;
+}
+
+li.active {
+    background-color: #41c7c2;
+}
+
+a {
+    text-decoration: none;
+    color: #7b8585;
+    display: block;
+}
+
+li.active a {
+    color: #fff;
+}
