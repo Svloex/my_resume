@@ -27,7 +27,7 @@ let Content = function (props){
                     <a>Старница из Википедии в разработке</a>
                     </li>
                     <li>
-                    <Link to={'/my_resume/calculator'}>Kалькулятор</Link>
+                    <Link to={'/calculator'}>Kалькулятор</Link>
                     {/* <a href="https://svloex.github.io/Resume/calculator">Kалькулятор</a> */}
                     </li>
                     <li>
