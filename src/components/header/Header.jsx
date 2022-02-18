@@ -10,7 +10,7 @@ let Header =  (props) => {
     pathname = [...pathname].join("")
     console.log(pathname)
     const [tabIndex] = useState(["home","calculator"]);
-    const [tabs] = useState(['home','calculator']);
+    const [tabs] = useState(['my_resume/home','my_resume/calculator']);
     useEffect(() => {
          console.log("render")
      },[]);
@@ -18,7 +18,7 @@ let Header =  (props) => {
     let buttons = tabs.map((tab, index) => {
         console.log(tab,pathname,new useLocation().pathname==='/')
             return (
-                <li key={index} className={ ff === "/" ?  (pathname = "home") : tab === pathname,
+                <li key={index} className={ ff === "/" ?  (pathname = "my_resume/home") : tab === pathname,
                 tab === pathname ? 'active' : 'inactive'} >
                     <Link to={(tab)}>
                         {tabIndex[index]}
