@@ -1,11 +1,10 @@
 import React, { useEffect } from "react"
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import photo from "../imgSRC/photo.jpg"
 import './content.css'
 let Content = function (props){
     useEffect(() => {
         document.title = "Content"
-       
     }, []);
     return(
         <div className="container">
@@ -25,10 +24,10 @@ let Content = function (props){
                 <h2>Опыт работы</h2>
                 <ol className="list">
                     <li>
-                    <a href="file:///C:/Users/user/Desktop/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/special_folder/%D0%94%D0%97/svloex/Houston.html">Старница из Википедии в разработке</a>
+                    <a>Старница из Википедии в разработке</a>
                     </li>
                     <li>
-                    <Link to={'/https://svloex.github.io/my_resume/calculator'}>Kалькулятор</Link>
+                    <Link to={'/my_resume/calculator'}>Kалькулятор</Link>
                     {/* <a href="https://svloex.github.io/Resume/calculator">Kалькулятор</a> */}
                     </li>
                     <li>
