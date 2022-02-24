@@ -33,6 +33,9 @@ let Content = function (props){
                     <li>
                     <a href="https://github.com/Svloex/internet-page">Веб приложение</a>
                     </li>
+                    <li>
+                    <a href="https://api-books-six.vercel.app">приложение для поиска книг</a>
+                    </li>
                 </ol>
             </div>
             <div className="card bg_yellow">
